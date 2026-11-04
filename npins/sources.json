@@ -1,0 +1,71 @@
+{
+  "pins": {
+    "make-shell": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nicknovitski",
+        "repo": "make-shell"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v1.3.0",
+      "revision": "dad639e47f32e66a3e080a249fc618086bd5cdeb",
+      "url": "https://api.github.com/repos/nicknovitski/make-shell/tarball/refs/tags/v1.3.0",
+      "hash": "sha256-bXso1pRcMxzJlEhfcDR/9oYOdkoXx/niNIMV4Y+FMmI="
+    },
+    "mkshell-minimal": {
+      "type": "Git",
+      "repository": {
+        "type": "Forgejo",
+        "server": "https://codeberg.org/",
+        "owner": "viperML",
+        "repo": "mkshell-minimal"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "f6bdb1f49c3edd2a2844c0c394d47cbfd0d61a52",
+      "url": "https://codeberg.org/viperML/mkshell-minimal/archive/f6bdb1f49c3edd2a2844c0c394d47cbfd0d61a52.tar.gz",
+      "hash": "sha256-bvMHF5K8nEC5A3StYs0TDjXmrGHVb1QojKD4cg+/S2k="
+    },
+    "nilla": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nilla-nix",
+        "repo": "nilla"
+      },
+      "pre_releases": true,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v0.0.0-alpha.17",
+      "revision": "cf04f39bf6249a35b7964098c9c55104bfb43923",
+      "url": "https://api.github.com/repos/nilla-nix/nilla/tarball/refs/tags/v0.0.0-alpha.17",
+      "hash": "sha256-H9Shp8A55U2kqy+zy+GaHmG379DjPrV33JXBq8Pi2vc="
+    },
+    "nilla-cli": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nilla-nix",
+        "repo": "cli"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "3286a3299ab9e6017f8467c0ae0d6969a5176db9",
+      "url": "https://github.com/nilla-nix/cli/archive/3286a3299ab9e6017f8467c0ae0d6969a5176db9.tar.gz",
+      "hash": "sha256-IB12XrIj0iyPD7ROl1Y7VHpXWpmYoP7uV3j3XUZDAXI="
+    },
+    "nixpkgs": {
+      "type": "Channel",
+      "name": "nixpkgs-unstable",
+      "artifact": "nixexprs.tar.xz",
+      "url": "https://releases.nixos.org/nixpkgs/nixpkgs-26.11pre1107841.9d3b8db48266/nixexprs.tar.xz",
+      "hash": "sha256-WqewjvVjGQ1yhAvxeZW7IKoIT08vUNfyaeZewOwyYxg="
+    }
+  },
+  "version": 8
+}
