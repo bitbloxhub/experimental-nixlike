@@ -8,7 +8,10 @@ nilla.create (
     ...
   }:
   {
-    includes = [ ./nix/modules/nilla/shell.nix ];
+    includes = [
+      ./nix/modules/nilla/shell.nix
+      ./nix/modules/nilla/static.nix
+    ];
     config = {
       inputs = lib.modules.merge [
         (builtins.mapAttrs (name: value: { src = value; }) pins)

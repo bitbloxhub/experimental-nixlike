@@ -1,20 +1,5 @@
 { config, ... }:
-let
-  staticOverlay = import ../../overlays/static.nix;
-in
 {
-  config.packages.static-bash = {
-    systems = [ "x86_64-linux" ];
-    settings = {
-      pkgs = builtins.mapAttrs (
-        _: pkgs: pkgs.pkgsStatic.extend staticOverlay
-      ) config.inputs.nixpkgs.result;
-    };
-    package =
-      { bash, ... }:
-      bash;
-  };
-
   config.shells.default = {
     systems = [ "x86_64-linux" ];
 
